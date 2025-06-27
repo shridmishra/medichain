@@ -1,0 +1,10 @@
+/home/shrid/Projects/medichain/programs/medichain-pure/target/sbf-solana-solana/release/deps/solana_frozen_abi-9037b20b83b6aa87.rmeta: /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/lib.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_digester.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_example.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/hash.rs
+
+/home/shrid/Projects/medichain/programs/medichain-pure/target/sbf-solana-solana/release/deps/libsolana_frozen_abi-9037b20b83b6aa87.rlib: /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/lib.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_digester.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_example.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/hash.rs
+
+/home/shrid/Projects/medichain/programs/medichain-pure/target/sbf-solana-solana/release/deps/solana_frozen_abi-9037b20b83b6aa87.d: /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/lib.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_digester.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_example.rs /home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/hash.rs
+
+/home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/lib.rs:
+/home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_digester.rs:
+/home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/abi_example.rs:
+/home/shrid/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-1.17.17/src/hash.rs:

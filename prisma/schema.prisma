@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  publicKey String   @unique
+  role      Role     @default(PATIENT)
+  name      String?
+  createdAt DateTime @default(now())
+  records   Record[]
+  doctorRequests  AccessRequest[] @relation("DoctorRequests")
+  patientRequests AccessRequest[] @relation("PatientRequests")
+}
+
+model Record {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  pointer   String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model AccessRequest {
+  id        Int      @id @default(autoincrement())
+  doctorId  Int
+  patientId Int
+  status    String   @default("pending") // pending, approved, denied
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  doctor    User     @relation("DoctorRequests", fields: [doctorId], references: [id])
+  patient   User     @relation("PatientRequests", fields: [patientId], references: [id])
+}
+
+enum Role {
+  PATIENT
+  DOCTOR
+}

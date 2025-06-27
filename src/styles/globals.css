@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Custom global reset and styles */
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: none;
+  }
+
+  /* For WebKit (Chrome & Safari) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Custom gradient for Solana wallet button and select wallet button */
+.wallet-adapter-button,
+.wallet-adapter-button-trigger {
+  background: linear-gradient(to right, #10b981, #06b6d4) !important;
+  color: #fff !important;
+  border-radius: 0.5rem !important;
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: 0.01em !important;
+  border: none !important;
+  box-shadow: 0 4px 24px 0 rgba(16,185,129,0.15);
+  transition: box-shadow 0.2s, transform 0.2s;
+  padding: 0.85rem 2.2rem !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.12);
+  outline: none !important;
+}
+
+.wallet-adapter-button[aria-expanded="true"],
+.wallet-adapter-button-trigger[aria-expanded="true"] {
+  filter: brightness(0.95);
+}
+
+.wallet-adapter-button:hover,
+.wallet-adapter-button-trigger:hover,
+.wallet-adapter-button:focus,
+.wallet-adapter-button-trigger:focus {
+  box-shadow: 0 6px 32px 0 rgba(6,182,212,0.25);
+  transform: scale(1.04);
+  color: #fff !important;
+  outline: 2px solid #06b6d4 !important;
+  outline-offset: 2px;
+}

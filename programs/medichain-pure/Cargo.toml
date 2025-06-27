@@ -1,0 +1,13 @@
+[package]
+name = "medichain_pure"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "medichain_pure"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "=1.17.17"
+borsh = "0.10.3"
+borsh-derive = "0.10.3" 

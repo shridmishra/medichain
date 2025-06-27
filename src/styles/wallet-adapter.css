@@ -1,0 +1,109 @@
+.wallet-adapter-modal {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background-color: rgb(15, 23, 42) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+}
+
+.wallet-adapter-modal-title {
+  color: rgb(52, 211, 153) !important;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.wallet-adapter-modal-list {
+  margin: 0 0 4px !important;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(34, 211, 238, 0.1)) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: rgb(226, 232, 240) !important;
+  font-family: 'Sora', sans-serif !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button:hover {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.2), rgba(34, 211, 238, 0.2)) !important;
+  border-color: rgb(52, 211, 153) !important;
+  transform: translateY(-1px) !important;
+}
+
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon,
+.wallet-adapter-modal-list .wallet-adapter-button-end-icon img,
+.wallet-adapter-modal-list .wallet-adapter-button-start-icon img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(34, 211, 238, 0.1)) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: rgb(226, 232, 240) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-modal-button-close:hover {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.2), rgba(34, 211, 238, 0.2)) !important;
+  border-color: rgb(52, 211, 153) !important;
+}
+
+.wallet-adapter-collapse {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(34, 211, 238, 0.1)) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: rgb(226, 232, 240) !important;
+  font-family: 'Sora', sans-serif !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-collapse:hover {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.2), rgba(34, 211, 238, 0.2)) !important;
+  border-color: rgb(52, 211, 153) !important;
+}
+
+.wallet-adapter-dropdown {
+  background-color: rgb(15, 23, 42) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.wallet-adapter-dropdown-list {
+  background-color: rgb(15, 23, 42) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+}
+
+.wallet-adapter-dropdown-list-item {
+  color: rgb(226, 232, 240) !important;
+  font-family: 'Sora', sans-serif !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-dropdown-list-item:hover {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(34, 211, 238, 0.1)) !important;
+  color: rgb(52, 211, 153) !important;
+}
+
+.wallet-adapter-tooltip {
+  background-color: rgb(15, 23, 42) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: rgb(226, 232, 240) !important;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.wallet-adapter-tooltip-button {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.1), rgba(34, 211, 238, 0.1)) !important;
+  border: 1px solid rgba(148, 163, 184, 0.2) !important;
+  color: rgb(226, 232, 240) !important;
+  font-family: 'Sora', sans-serif !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.wallet-adapter-tooltip-button:hover {
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.2), rgba(34, 211, 238, 0.2)) !important;
+  border-color: rgb(52, 211, 153) !important;
+} 
